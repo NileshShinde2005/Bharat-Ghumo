@@ -22,7 +22,7 @@ Server → Apache Tomcat
 
 🚀 Setup Instructions
 Clone the Repository
-git clone https://github.com/YourUsername/Bharat-Ghumo.git
+git clone https://github.com/NileshShinde2005/Bharat-Ghumo.git
 cd Bharat-Ghumo
 Import in IDE
 Open in Eclipse/IntelliJ as a Maven project.
