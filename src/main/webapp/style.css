@@ -1,0 +1,137 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Noto+Sans+Devanagari&family=Mangal&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.main-header {
+    text-align: center;
+    padding: 50px 0;
+    background: #fff;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 42px;
+    color: #ff9800;
+    margin-top: 10px;
+}
+
+/* Ensure Hindi text displays correctly */
+.tagline {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans Devanagari', 'Mangal', 'Arial', sans-serif;
+}
+
+/* Button Styling */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #ff9800;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.user-login {
+    background: #ff9800;
+    color: #fff;
+}
+
+.user-login:hover {
+    background: #e68900;
+}
+
+/* Footer Styling */
+footer {
+    background: #111;
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    color: #ff9800;
+    margin-bottom: 15px;
+}
+
+.footer-section p, .footer-section ul {
+    color: #bbb;
+}
+
+/* List styling */
+.footer-section ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+/* Footer Contact Styling */
+.footer-section.contact p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: flex-start;
+}
+
+.footer-section p img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
