@@ -4,6 +4,7 @@
     "goal": "package"
   },
   "deploy": {
+    "container": "tom-ee",
     "app_path": "target/bharatghumo.war"
   }
 }
