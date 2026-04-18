@@ -1,0 +1,10 @@
+{
+  "build": {
+    "type": "maven",
+    "goal": "package"
+  },
+  "deploy": {
+    "type": "docker",
+    "docker_image": "clevercloud/tom-ee:8"
+  }
+}
