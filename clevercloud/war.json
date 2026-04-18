@@ -1,9 +1,0 @@
-{
-  "build": {
-    "type": "maven",
-    "goal": "package"
-  },
-  "deploy": {
-    "app_path": "target/bharatghumo.war"
-  }
-}
